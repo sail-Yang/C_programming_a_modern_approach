@@ -10,5 +10,7 @@ int main(void)
 	denom3 = denom2*denom1;
 	 
 	printf("The sum is %d/%d",num3,denom3);
+	printf("%.5d",23);
 	return 0;
+	
 }

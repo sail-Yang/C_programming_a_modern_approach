@@ -52,6 +52,10 @@ scanf(" %c",&ch);/*skips white space, then reads cn */
 
   当循环终止时，变量ch将包含getchar函数遇到的第一个非空白字符。
 
+  ###  补充
+
+  - getchar会吸收scanf读入的换行符，所以要在循环中使用getchar，先把scanf里的\n吸收掉。具体示例看7.2练习。
+
 ##  类型转换
 
 在执行算术运算时，计算机的限制很多：

@@ -5,6 +5,7 @@ int main(){
 	int i,n = 0;
 	char a[50],c; /*这里有个问题，就是不知道该定义数组为多长*/
 	
+	printf("Enter message:"); 
 	while ((c = getchar()) != '\n'){
 		a[n] = toupper(c);
 		n++;

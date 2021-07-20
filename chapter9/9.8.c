@@ -19,6 +19,7 @@ int main(){
 		}
 		printf("\n\n");
 		printf("Play again?\n");
+		/*这里要注意，不这么写的话，第二次读的会是空格*/ 
 		ch = getchar();
 		getchar();
 		if(ch == 'y'||ch == 'Y'){

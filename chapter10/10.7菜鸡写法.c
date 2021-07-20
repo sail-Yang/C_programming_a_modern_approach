@@ -12,6 +12,7 @@ int main(){
 	int digit,position,k=0,pos;
 	char num;
 	clear_digits_array();
+	printf("Enter a number:"); 
 	while ((num = getchar()) != '\n')
     {
     	if (47 < num && num < 58){

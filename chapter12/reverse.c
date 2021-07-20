@@ -1,4 +1,5 @@
 #include <stdio.h>
+/*用指针反向数组*/
 #define N 10
 int main(void)
 {

@@ -15,6 +15,7 @@ void print_digits_array(void);
 
 int main(void)
 {
+	system("color 0A");
     char num;
     int digit[9];
     int position = 0;
@@ -36,7 +37,8 @@ int main(void)
     }
 
     print_digits_array();
-
+	system("date/t\n");
+	system("pause");
     return 0;
 }
 

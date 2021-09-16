@@ -16,6 +16,6 @@ int main(){
 			printf("You entered the number:%s",shiwei[a/10-2]);
 	else
 		printf("Input erroe!");
-	
+	//system("pause");
 	return 0;
 }

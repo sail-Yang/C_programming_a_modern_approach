@@ -62,6 +62,22 @@ int main(){
 	return 0;
 }
 /*函数定义*/
+void PrintMenu()
+{
+	system("cls");
+	printf(	"     功能菜单\n\n"
+			"   1.新增DVD影片\n\n"
+			"   2.DVD影片浏览\n\n"
+			"   3.DVD影片删除\n\n"
+			"   4.DVD影片修改\n\n"
+			"   5.DVD影片排序\n\n"
+			"   6.DVD影片查询统计\n\n"
+			"   7.保存DVD影片数据\n\n"
+			"   8.从文件中读取DVD影片数据\n\n"
+			"   9.输入其它指令退出程序\n\n"
+			"请输入指令:"
+	);
+}
 void CreateFilmList(FilmList *L_ptr){
 	*L_ptr = (Film_ptr)malloc(NODE_LEN);
 	(*L_ptr)->next = NULL;
@@ -389,22 +405,7 @@ void CountType(FilmList *L_ptr)
 	}
 	
 }
-void PrintMenu()
-{
-	system("cls");
-	printf(	"     功能菜单\n\n"
-			"   1.新增DVD影片\n\n"
-			"   2.DVD影片浏览\n\n"
-			"   3.DVD影片删除\n\n"
-			"   4.DVD影片修改\n\n"
-			"   5.DVD影片排序\n\n"
-			"   6.DVD影片查询统计\n\n"
-			"   7.保存DVD影片数据\n\n"
-			"   8.从文件中读取DVD影片数据\n\n"
-			"   9.输入其它指令退出程序\n\n"
-			"请输入指令:"
-	);
-}
+
 int Get_Len(FilmList L)
 {
 	Film_ptr p = L->next;

@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h >
 #include <stdlib.h>
 #define MAXVERTEX 30
 #define VertexType char
